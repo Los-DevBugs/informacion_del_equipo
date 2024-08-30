@@ -1,0 +1,36 @@
+[33mcommit 4f17df3fc5da7c64b9c288b699fa2bedfa0f946d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: f481417 ca7bb61
+Author: Jherzon <71827961@continental.edu.pe>
+Date:   Tue Aug 27 22:36:06 2024 -0500
+
+    Merge branch 'main' of https://github.com/Los-DevBugs/informacion_del_equipo into main
+
+[33mcommit f481417553950b77ff44b923a37530e83a579b30[m
+Author: Jherzon <71827961@continental.edu.pe>
+Date:   Tue Aug 27 22:22:50 2024 -0500
+
+    cambios
+
+[33mcommit a66d598b7509cc2e53d122845f5d88bffda72600[m
+Author: Jherzon <71827961@continental.edu.pe>
+Date:   Tue Aug 27 22:06:49 2024 -0500
+
+    cambios
+
+[33mcommit b5521976f76e846b2efe28dfe5de5db29346f2f3[m
+Author: Bill <Bill>
+Date:   Tue Aug 27 18:45:29 2024 -0500
+
+    actualizacion de la carpeta images
+
+[33mcommit 2544b64db73abd02873ab2d9b21f5cc0e55a6f14[m
+Author: Bill <Bill>
+Date:   Tue Aug 27 18:30:28 2024 -0500
+
+    estructura del html
+
+[33mcommit ca7bb61e9c34dde8567013f453cc953193dc1ee5[m
+Author: Bill-botchat <73448083@continental.edu.pe>
+Date:   Tue Aug 27 18:24:46 2024 -0500
+
+    Initial commit
