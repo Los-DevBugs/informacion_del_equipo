@@ -4,55 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apock web design</title>
-    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">}
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
+    <header class="header">
+        <a href="#home" class="logo">Bill<span>Ninanqui</span></a>
 
-    <section class="seccion-perfil-usuario">
-        <div class="perfil-usuario-header">
-            <div class="perfil-usuario-portada">
-                <div class="perfil-usuario-avatar">
-                    <img src="http://localhost/multimedia/relleno/img-c9.png" alt="img-avatar">
-                    <button type="button" class="boton-avatar">
-                        <i class="far fa-image"></i>
-                    </button>
-                </div>
-                <button type="button" class="boton-portada">
-                    <i class="far fa-image"></i> Cambiar fondo
-                </button>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Home</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, it's <span>Bill</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus perferendis maiores quisquam minus
+                nisi aut quis hic in, neque debitis qui incidunt quidem alias laudantium voluptatum corporis praesentium
+                error? Inventore.
+            </p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+
+
             </div>
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+
+            <div class="home-img">
+                <img src="image-fondo.jpg" alt="">
+            </div>
+
         </div>
-        <div class="perfil-usuario-body">
-            <div class="perfil-usuario-bio">
-                <h3 class="titulo">main</h3>
-                <p class="texto">mis datos noc q ponerr jajaj
-                    asdas.</p>
+    </section>
+    
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+        <div class="timelime-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id fuga ipsam sint inventore quasi maiores
+                            quas minima, obcaecati accusantium laudantium fugiat tempora sequi consequuntur beatae? Tempore
+                            molestias natus dolore illo?</p>
+                    </div>
+                </div>
             </div>
-            <div class="perfil-usuario-footer">
-                <ul class="lista-datos">
-                    <li><i class="icono fas fa-map-signs"></i> Direccion de usuario:</li>
-                    <li><i class="icono fas fa-phone-alt"></i> Telefono:</li>
-                    <li><i class="icono fas fa-briefcase"></i> Trabaja en.</li>
-                    <li><i class="icono fas fa-building"></i> Cargo</li>
-                </ul>
-                <ul class="lista-datos">
-                    <li><i class="icono fas fa-map-marker-alt"></i> Ubicacion.</li>
-                    <li><i class="icono fas fa-calendar-alt"></i> Fecha nacimiento.</li>
-                    <li><i class="icono fas fa-user-check"></i> Registro.</li>
-                    <li><i class="icono fas fa-share-alt"></i> Redes sociales.</li>
-                </ul>
-            </div>
-            <div class="redes-sociales">
-                <a href="" class="boton-redes facebook fab fa-facebook-f"><i class="icon-facebook"></i></a>
-                <a href="" class="boton-redes twitter fab fa-twitter"><i class="icon-twitter"></i></a>
-                <a href="" class="boton-redes instagram fab fa-instagram"><i class="icon-instagram"></i></a>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Univsity</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id fuga ipsam sint inventore quasi maiores
+                            quas minima, obcaecati accusantium laudantium fugiat tempora sequi consequuntur beatae? Tempore
+                            molestias natus dolore illo?</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
