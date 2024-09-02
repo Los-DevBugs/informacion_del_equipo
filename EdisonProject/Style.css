@@ -1,76 +1,70 @@
-body, ul, li, h1, p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilo general del cuerpo */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background: rgb(253, 250, 227);
+    margin: 0 80px;
+    text-align: center;
+    font-family: 'open sans';
 }
 
-/* Estilo del menú de navegación */
-.navbar {
-    background-color: #333;
-    padding: 10px 0;
+.content-titulo {
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    margin: 0 0 150px 0 ;
 }
 
-.navbar-list {
-    list-style: none;
+.content-img__img1 {
+    width: 100%;
+    margin: auto;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
-.navbar-item {
-    margin: 0 15px;
+.Form-logo {
+    border-radius: 10%;
+
 }
 
-.navbar-link {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    transition: background-color 0.3s;
+.content-img__perfil {
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
 }
 
-.navbar-link:hover {
-    background-color: #555;
-    border-radius: 5px;
+.content-img img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 20px solid #FFD700;
 }
 
-.Content__img {
-    display: 
+.content-informacion__boxImgs {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-/* Estilo de las secciones */
-.content {
+.content-informacion__boxImg {
+    flex-wrap: wrap;
+    margin: 20px 0;
+    width: 150px;
+    min-width: 100px;
+    height: 200px;
+    text-align: center;
     padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px 0 #000;
+
 }
 
-section {
-    padding: 50px 0;
-}
-
-section h1 {
-    margin-bottom: 20px;
-    font-size: 2em;
-}
-
-section p {
-    font-size: 1.2em;
-    color: #333;
-}
-
-/* Estilo adaptativo para dispositivos móviles */
-@media (max-width: 768px) {
-    .navbar-list {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .navbar-item {
-        margin: 10px 0;
-    }
+.content-informacion__boxImgs img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
 }
